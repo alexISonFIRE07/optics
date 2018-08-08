@@ -1,0 +1,87 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-style: helvetica;
+  align-content: center;
+}
+
+
+/* navi and top picture  */
+
+.background {
+  background-image: url(../images/glasses-bg.png);
+  height: 30rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.navi{
+  background-color: cadetblue;
+  width: 960px;
+  position: relative;
+  top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem
+}
+
+.navihome {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navihome a {
+  margin-left: 1rem;
+}
+
+a {
+  color: white;
+
+}
+
+.navihome img {
+  height: 1.5rem;
+}
+
+.navibuttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navibuttons p {
+  margin-left: 2rem;
+}
+
+/*  heading on background picture */
+
+.mainheading {
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  background-color: white;
+  padding: 1.5rem 5rem;
+  position: relative;
+  top: 10rem;
+  left: 24rem;
+  width: 24rem;
+}
+
+/* little images */
+
+.maincontainer {
+  display: flex;
+  justify-content: space-around;
+  width: 960px;
+  height: 8rem;
+  margin: 3rem 0;
+
+}
+.containertop {
+  height: 8rem;
+  width: 5rem;
+
+}
+.containertop img {
+ width: 3.5rem;
+}
